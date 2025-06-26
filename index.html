@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="Website_icon.png">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">Mohammed</div>
+            <div class="burger-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">My Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <button class="theme-toggle" onclick="toggleTheme()">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </li>
+                <li>
+                    <button class="lang-toggle" onclick="toggleLanguage()">
+                        <i class="fas fa-globe"></i>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="mobile-menu">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">My Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="mobile-buttons">
+                <button class="theme-toggle" onclick="toggleTheme()">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="lang-toggle" onclick="toggleLanguage()">
+                    <i class="fas fa-globe"></i>
+                </button>
+            </li>
+        </ul>
+    </div>
+
+    <section id="home" class="hero">
+        <video class="hero-video" autoplay muted loop playsinline>
+            <source src="src/video.mp4" type="video/mp4">
+        </video>
+        <div class="hero-content">
+            <div class="hero-image">
+                <img src="src/myself.jpg" alt="Profile Image">
+            </div>
+            <div class="hero-text">
+                <h1>Hi, I'm Mohammed</h1>
+                <p>Graphic Designer | 3D Artist</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="cube-emoji">
+            <div class="cube">
+                <div class="cube-face front"></div>
+                <div class="cube-face back"></div>
+                <div class="cube-face right"></div>
+                <div class="cube-face left"></div>
+                <div class="cube-face top"></div>
+                <div class="cube-face bottom"></div>
+            </div>
+        </div>
+        <h2>About Me</h2>
+        <p>I am a passionate graphic designer and 3D artist, dedicated to delivering exceptional work for my clients. With a keen eye for detail and a love for Practical solutions, I Love to create designs that not only look beautiful but also serve their purpose effectively.</p>
+    </section>
+
+    <section id="work" class="work-section">
+        <h2>My Work</h2>
+        <div class="work-grid" id="workGrid">
+            <!-- First 3 cards (always visible) -->
+            <div class="work-item">
+                <img src="src/1.jpg" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>VC Company Logo</p>
+            </div>
+            <div class="work-item">
+                <img src="src/2.jpg" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>Dental Group Logo</p>
+            </div>
+            <div class="work-item">
+                <img src="src/3.jpg" alt="Project 3">
+                <h3>Project 3</h3>
+                <p>Food delivery company logo</p>
+            </div>
+            <!-- Extra cards (hidden by default) -->
+            <div class="work-item extra">
+                <img src="src/4.jpg" alt="Project 4">
+                <h3>Project 4</h3>
+                <p>Burger restaurant Ad</p>
+            </div>
+            <div class="work-item extra">
+                <img src="src/5.jpg" alt="Project 5">
+                <h3>Project 5</h3>
+                <p>Restaurant Poster</p>
+            </div>
+            <div class="work-item extra">
+                <img src="src/6.jpg" alt="Project 6">
+                <h3>Project 6</h3>
+                <p>Elementry school Poster</p>
+            </div>
+            <div class="work-item extra">
+                <img src="src/7.jpg" alt="Project 7">
+                <h3>Project 7</h3>
+                <p>Decorative print</p>
+            </div>
+            <div class="work-item extra">
+                <img src="src/8.jpg" alt="Project 8">
+                <h3>Project 8</h3>
+                <p>Magazine cover</p>
+            </div>
+            <div class="work-item extra">
+                <img src="src/9.jpg" alt="Project 9">
+                <h3>Project 9</h3>
+                <p>University Admission Poster</p>
+            </div>
+        </div>
+        <button class="show-more-btn" id="showMoreBtn" onclick="toggleProjects()">Show More</button>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <span class="mail-emoji">📧</span>
+        <span class="mail-emoji">📧</span>
+        <span class="mail-emoji">📧</span>
+        <span class="mail-emoji">📧</span>
+        <span class="mail-emoji">📧</span>
+        <span class="mail-emoji">📧</span>
+        <h2>Get in Touch</h2>
+        <p>Interested in working together? Let's create something amazing!</p>
+        <a href="mailto:mohammedwor076@gmail.com" class="email-btn">Contact Me</a>
+    </section>
+
+    <!-- Footer -->
+     
+    <script src="https://unpkg.com/i18next@21.6.10/dist/umd/i18next.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
