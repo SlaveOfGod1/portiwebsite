@@ -10,11 +10,11 @@ const resources = {
             },
             hero: {
                 title: "Hi, I'm Mohammed",
-                role: "Graphic Designer | 3D Artist"
+                role: "Graphic Designer"
             },
             about: {
                 title: "About Me",
-                text: "I am a passionate graphic designer and 3D artist, dedicated to delivering exceptional work for my clients. With a keen eye for detail and a love for Practical solutions, I Love to create designs that not only look beautiful but also serve their purpose effectively."
+                text: "I am a passionate graphic designer, dedicated to delivering exceptional work for my clients. With a keen eye for detail and a love for Practical solutions, I Love to create designs that not only look beautiful but also serve their purpose effectively."
             },
             work: {
                 title: "My Work",
@@ -23,9 +23,9 @@ const resources = {
                     project2: "Luna Dental Group",
                     project3: "SwiftLink",
                     project4: "Burger Shot",
-                    project5: "Bunz Shack",
-                    project6: "Bright Future School",
-                    project7: "New York",
+                    project5: "KRAKS Chips",
+                    project6: "Hot Sauce",
+                    project7: "Bright Future School",
                     project8: "Maze Magazine",
                     project9: "NorthField University"
                 },
@@ -34,9 +34,9 @@ const resources = {
                     project2: "Dental Group Logo",
                     project3: "Food delivery company logo",
                     project4: "Burger restaurant Ad",
-                    project5: "Restaurant Poster",
-                    project6: "Elementry school Poster",
-                    project7: "Decorative print",
+                    project5: "Social Media Ad",
+                    project6: "Product Advertisement",
+                    project7: "Elementry school Poster",
                     project8: "Magazine cover",
                     project9: "University Admission Poster"
                 },
@@ -60,11 +60,11 @@ const resources = {
             },
             hero: {
                 title: "مرحباً، أنا محمد",
-                role: "مصمم جرافيك | فنان ثلاثي الأبعاد"
+                role: "مصمم جرافيك"
             },
             about: {
                 title: "من أنا",
-                text: "أنا مصمم جرافيك و فنان ثلاثي الأبعاد شغوف، ملتزم بتقديم عمل استثنائي لعملائي. مع عين دقيقة للتفاصيل وحب للحلول العملية، أحب إنشاء تصميمات لا تبدو جميلة فحسب، بل أيضًا تخدم غرضها بفعالية."
+                text: "أنا مصمم جرافيك, ملتزم بتقديم عمل استثنائي لعملائي. مع عين دقيقة للتفاصيل وحب للحلول العملية، أحب إنشاء تصميمات لا تبدو جميلة فحسب، بل أيضًا تخدم غرضها بفعالية."
             },
             work: {
                 title: "أعمالي",
@@ -73,9 +73,9 @@ const resources = {
                     project2: "Luna Dental Group",
                     project3: "SwiftLink",
                     project4: "Burger Shot",
-                    project5: "Bunz Shack",
-                    project6: "Bright Future School",
-                    project7: "New York",
+                    project5: "KRAKS Chips",
+                    project6: "Hot Sauce",
+                    project7: "Bright Future School",
                     project8: "Maze Magazine",
                     project9: "NorthField University"
                 },
@@ -84,9 +84,9 @@ const resources = {
                     project2: "شعار مجموعة طب الأسنان",
                     project3: "شعار شركة توصيل الطعام",
                     project4: "إعلان مطعم برجر",
-                    project5: "ملصق مطعم",
-                    project6: "ملصق مدرسة ابتدائية",
-                    project7: "لوحة ديكور",
+                    project5: "إعلان على وسائل التواصل الاجتماعي",
+                    project6: "إعلان منتج",
+                    project7: "ملصق مدرسة ابتدائية",
                     project8: "غلاف مجلة",
                     project9: "ملصق قبول جامعي"
                 },
